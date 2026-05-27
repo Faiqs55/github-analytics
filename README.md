@@ -19,7 +19,7 @@ Follow these quick actions to execute this project on a fresh machine:
 
 1. **Clone and Enter the Directory:**
    ```bash
-   git clone <your-repository-url> && cd git-health-cli
+   git clone https://github.com/Faiqs55/github-analytics.git && cd git-health-cli
    ```
 
 2. **Install Core Dependencies:**
