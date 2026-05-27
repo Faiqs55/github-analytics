@@ -1,4 +1,4 @@
-# Git-Health CLI
+# Github Analytics
 
 A professional command-line interface utility built using Node.js to aggregate deep repository language statistics and audit active technical debt/abandoned projects directly from the GitHub REST API.
 
@@ -30,7 +30,7 @@ Follow these quick actions to execute this project on a fresh machine:
 3. **Execute the Application:**
    Pass any valid public GitHub username as an argument following the script flag:
    ```bash
-   npm start -- octocat
+   npm start -- Faiqs55
    ```
 
 ## 💡 Bypassing GitHub Rate Limits
@@ -40,5 +40,5 @@ Unauthenticated requests to the GitHub API are limited to 60 hits per hour. If y
 To expand your limit to 5,000 requests per hour, simply generate a Personal Access Token (PAT) on GitHub and pass it as an environment variable before your launch command:
 
 ```bash
-GITHUB_TOKEN=your_token_here npm start -- octocat
+GITHUB_TOKEN=your_token_here npm start -- Faiqs55
 ```

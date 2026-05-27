@@ -1,4 +1,4 @@
-# Technical Assessment Answers — Git-Health CLI
+# Technical Assessment Answers — Github Analytics
 
 ### 1. How to Run
 To run this project on a fresh machine:
