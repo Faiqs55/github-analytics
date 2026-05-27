@@ -1,10 +1,12 @@
 {
   "name": "github_analytics",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/main.js"
   },
   "repository": {
     "type": "git",
@@ -13,9 +15,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Faiqs55/github-analytics/issues"
   },
-  "homepage": "https://github.com/Faiqs55/github-analytics#readme"
+  "homepage": "https://github.com/Faiqs55/github-analytics#readme",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "picocolors": "^1.1.1"
+  }
 }
