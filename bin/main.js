@@ -1,6 +1,7 @@
 const pc = require('picocolors');
 const { getUserProfile, getUserRepos } = require('../src/api');
 const { auditUserRepositories } = require('../src/auditor');
+const { generateMarkdownReport } = require('../src/writer');
 
 async function main() {
   // Get the GitHub username from command-line arguments
@@ -56,6 +57,8 @@ async function main() {
   }
   console.log(pc.green('==================================================\n'));
   
+
+  await generateMarkdownReport(username, profile, auditResults);
 }
 
 main().catch(err => {
